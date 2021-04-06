@@ -1,0 +1,34 @@
+{
+  "name": "@microfunctions/common",
+  "version": "0.1.2",
+  "description": "microfunctions  common ",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "../dist/index.js",
+  "files": [
+    "dist/**/*",
+    "*.md"
+  ],
+  "scripts": {
+    "start:dev": "tsc -w",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+
+  },
+  "keywords": [
+    "microfunctions"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microfunctionsio/microfunctions-common"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslib": "2.1.0"
+  }
+}
