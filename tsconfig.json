@@ -4,7 +4,6 @@
     "declaration": true,
     "noImplicitAny": false,
     "skipLibCheck": true,
-    "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": false,
     "importHelpers": true,
     "removeComments": false,
@@ -14,9 +13,9 @@
     "target": "es2017",
     "sourceMap": false,
     "allowJs": false,
-    "strict": true,
+    "strict": false,
     "strictNullChecks": false
   },
-  "include": ["*.ts", "**/*.ts"],
+  "include": ["*.ts", "enums","interfaces"],
   "exclude": ["node_modules"]
 }

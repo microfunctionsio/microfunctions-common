@@ -1,4 +1,4 @@
-
+import { URLSearchParams } from "url"
 export interface IKubeApiLinkRef {
   apiPrefix?: string;
   apiVersion: string;
